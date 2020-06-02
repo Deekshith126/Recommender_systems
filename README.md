@@ -1,6 +1,6 @@
 # Different Recommendation Systems
 
-### 1. Simple Recommender (Knowledge-Based Recommender)
+### 1. Simple Recommender ([Knowledge-Based Recommender](Knowledge_based_recommender.py))
 
 - Here is the [link](https://www.kaggle.com/rounakbanik/movie-recommender-systems?select=movies_metadata.csv) for the dataset used for this recommender.
 - This will be a simple function that will perform the following tasks:
@@ -42,7 +42,7 @@
 
           
 
-### 2. Plot Description-Based Recommender(Content Based)
+### 2. Plot Description-Based Recommender([Content Based](Content_Based_recommender.py))
 
 - This model compares the descriptions and taglines of different movies, and provides recommendations that have the most similar plot descriptions.
 
@@ -68,7 +68,7 @@
 
      The cosine score can take any value between -1 and 1. The higher the cosine score, the more similar the documents are to each other.
 
-### 3. Collaborative Filters
+### 3. [Collaborative Filters](collaborative_filters.ipynb)
 
 - Just like the knowledge-based and content-based recommenders, collaborative filtering models are built on the context of movies. Since collaborative filtering demands data on user behavior, here the different dataset is used known as [MovieLens](https://movielens.org/).
 - The MovieLens dataset is made publicly available by GroupLens Research, a computer science lab at the University of Minnesota. It is one of the most popular benchmark datasets used to test the potency of various collaborative filtering models and is usually available in most recommender libraries and packages.
