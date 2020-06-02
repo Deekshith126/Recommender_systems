@@ -23,7 +23,7 @@
 
 - Here IMDB's weighted rating formula  is used as the metric. Mathematically, it can be represented as follows:
 
-- *weighted_rating(WR)* =  ![](https://i.imgur.com/oakKkx4.png)
+- *weighted_rating(WR)* =  <img src="https://i.imgur.com/oakKkx4.png" />
 
    - v is the number of votes garnered by the movie.
    - m is the minimum number of votes required for the movie to be in the chart (the prerequisite).
@@ -52,7 +52,7 @@
 
      - **TF-IDFVectorizer ** takes the aforementioned point into consideration and assigns weights to each word according to the following formula. For every word i in document j, the following applies:
 
-       <img src="https://miro.medium.com/proxy/1*nSqHXwOIJ2fa_EFLTh5KYw.png" style="zoom:67%;" />
+       <img src="https://miro.medium.com/proxy/1*nSqHXwOIJ2fa_EFLTh5KYw.png" style="zoom: 50%;" />
 
         - In this formula, the following elements are:
           - w is the weight of word i in document j 
@@ -77,7 +77,5 @@
 - Surprise is a scikit (or scientific kit) for building recommender systems in Python. You can think of it as scikit-learn's recommender systems counterpart. This is because it is extremely
   robust and easy to use. It gives us ready-to-use implementations of most of the popular collaborative filtering algorithms.
 - To download surprise, like any other Python library, open up your Terminal and type the following command:
-  - For windows 
-    ![](https://i.imgur.com/Rgxnjdk.png)
-  - For Mac or Unbuntu 
-    ![](https://i.imgur.com/CcudIQk.png)
+  - For windows ![](https://i.imgur.com/Rgxnjdk.png)
+  - For Mac or Unbuntu <img src="https://i.imgur.com/oakKkx4.png" style="zoom:50%;" />
