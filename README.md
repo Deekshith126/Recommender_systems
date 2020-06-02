@@ -23,7 +23,7 @@
 
 - Here IMDB's weighted rating formula  is used as the metric. Mathematically, it can be represented as follows:
 
-- *weighted_rating(WR)* =  ![weighted_rating](http://latex.codecogs.com/gif.latex?%28%28%5Cfrac%7Bv%7D%7Bv&plus;m%7D%29*R%29%20&plus;%20%28%28%5Cfrac%7Bm%7D%7Bm&plus;v%7D%29*C%29)
+- *weighted_rating(WR)* =  ![](https://i.imgur.com/oakKkx4.png)
 
    - v is the number of votes garnered by the movie.
    - m is the minimum number of votes required for the movie to be in the chart (the prerequisite).
