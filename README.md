@@ -78,4 +78,4 @@
   robust and easy to use. It gives us ready-to-use implementations of most of the popular collaborative filtering algorithms.
 - To download surprise, like any other Python library, open up your Terminal and type the following command:
   - For windows ![](https://i.imgur.com/Rgxnjdk.png)
-  - For Mac or Unbuntu <img src="https://i.imgur.com/oakKkx4.png" style="zoom:50%;" />
+  - For Mac or Unbuntu ![](https://i.imgur.com/CcudIQk.png)
